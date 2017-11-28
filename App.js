@@ -6,6 +6,7 @@ import firebase from 'firebase'
 import ReduxThunk from 'redux-thunk'
 import Router from './src/Router'
 
+
 class App extends Component {
   componentWillMount() {
     const config = {
